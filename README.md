@@ -8,10 +8,15 @@ Python version: 3.x <br/>
 Python imports: Simply run `python -m pip install -r requirements.txt` to install all the required packages <br/>
 _Note: if you are on linux, you probably need to use `python3` instead of `python`_ <br/>
 
-# Using
+# Building
 To build your reverse shell run `python createShell.py` and fill with the information needed <br/>
 _Note: if you are on linux, you probably need to use `python3` instead of `python`_ <br/>
 _You can run the script with the `--no-color` flag if your terminal doesn't support colors_ <br/>
+
+# Connecting
+You'll need to listen on the port you choosed, for that you can use `netcat` or some other program that does that. <br/>
+_Netcat for windows: [netcat](https://github.com/diegocr/netcat)_ <br/>
+_Netcat command example: `nc -l -p 7777` (`7777` is the port, replace it with the one you've chosen)_ <br/>
 
 # Info
 LHOST: IP the target machine will connect to _(usually your ip)_ <br/>
@@ -31,10 +36,15 @@ Versão python: 3.x <br/>
 Python imports: Execute `python -m pip install -r requirements.txt` para instalar todos os pacotes necessários. <br/>
 _Atenção: se você estiver no linux, provavelmente precisará utilizar `python3` ao invés de `python`_ <br/>
 
-# Usando
+# Compilando
 Para criar sua reverse shell execute `python createShell.py` e preencha as informações necessárias <br/>
 _Atenção: se você estiver no linux, provavelmente precisará utilizar `python3` ao invés de `python`_ <br/>
 _Você pode executar o script com a flag `--no-color` se o seu terminal não suportar cores_ <br/>
+
+# Conectando
+Você vai precisar "escutar" na porta escolhida, pra isso você pode usar o `netcat` ou outro programa que faça isso. <br/>
+_Netcat pro windows: [netcat](https://github.com/diegocr/netcat)_ <br/>
+_Exemplo de comando: `nc -l -p 7777` (`7777` é a porta, substitua pela porta que você escolheu)_ <br/>
 
 # Informações
 LHOST: IP que o computador infectado se conectará _(normalmente é o seu próprio ip)_ <br/>
