@@ -21,9 +21,13 @@ Copyright (c) 2020 LcGk
 
 
 Other infos:
-    Script developed for educational and explanatory purposes only. Its use is the user's responsibility.
+    Script developed for educational and whitehat purposes only. Its use is the user's responsibility.
     Random variable/function/import names are used to avoid signature detection.
 """
+
+# TODOS
+# - Improve stability
+# - Clean code
 
 title = """
 .-= Python Reverse Shell =-.
