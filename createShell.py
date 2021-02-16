@@ -37,6 +37,7 @@ import os
 from shutil import rmtree
 import subprocess
 from time import sleep
+from sys import argv
 
 def genRandChars(l):
     c = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
@@ -56,6 +57,17 @@ def main():
     info = Fore.LIGHTCYAN_EX
     success = Fore.LIGHTGREEN_EX
     reset = Fore.RESET
+
+    if len(argv) > 1:
+        if argv[1] == "--no-color":
+            question = ""
+            advanced = ""
+            warning = ""
+            info = ""
+            success = ""
+            reset = ""
+    else:
+        print("Info: You can use the --no-color flag if your terminal doesn't support colors")
 
     print(success + title + reset)
 
