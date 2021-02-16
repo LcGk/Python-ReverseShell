@@ -1,3 +1,5 @@
+[Versão em português](https://github.com/LcGk/Python-ReverseShell#brazillian-portuguese--portugu%C3%AAs-brasileiro)
+
 # ***English***
 
 # Python-ReverseShell
@@ -25,6 +27,8 @@ LPORT: The PORT the target machine will connect to _(use a port of your choice, 
 --- Seconds to sleep before running: The time the shell will stay idle before actually running _(can avoid some **runtime** detections)_ <br/>
 --- Hide file: Will try to hide itself with `windows flags` and move itself to the Program Data folder <br/>
 --- Spawn shell in another process: Will create a copy of itself in another folder and execute that file, than exit <br/>
+
+<br/><br/>
 
 # ***Brazillian Portuguese / Português Brasileiro***
 
